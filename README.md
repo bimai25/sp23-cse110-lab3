@@ -1,2 +1,2 @@
-# CSE 110 - Lab 2 Brandon Imai
-https://bimai25.github.io/cse110-lab2/
+# CSE 110 - Lab 3 Brandon Imai
+bimai25.github.io/sp23-cse110-lab3
