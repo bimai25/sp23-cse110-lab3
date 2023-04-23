@@ -1,0 +1,116 @@
+/*Color for the entire document */
+body{
+    background-color: gainsboro;
+}
+
+/*Color for the nav text*/
+#nav-text, #name-text{
+    color: rgb(0, 0, 255);
+}
+
+.nav-text-display{
+    display: inline-block;
+}
+
+/*Color for the h1 header*/
+h1{
+    color: hsla(227, 74%, 45%, 1);
+}
+
+.h1-style{
+    margin-top: 5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+}
+/*Color for the h2 headers*/
+h2{
+    color:#1f5e7a;
+    flex: 1;
+}
+.h2-style{
+    margin: top 5vw;
+    margin: left 5vw;
+    margin: right 5vw;
+    margin: bottom 5vw;
+    padding: top 10px;
+    padding: bottom 10px;
+    padding: right 10px;
+    padding: left 10px;
+}
+
+.meeting-type-text{
+    width: 10em;
+    border-style: dashed;
+    border-color: rgb(176, 35, 195);
+    border-width: 2px;
+    border-radius: 20vmin;
+    text-align: center;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.attendance-parent-wrapper{
+    margin: top 1px;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.attendance-child-wrapper{
+    margin: top;
+    padding: bottom;
+}
+
+.section-parent-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-width: 2px;
+    max-width: 700px;
+    max-height: 450px;
+}
+
+.image-layout{
+    position: static;
+}
+.video-layout{
+    position: sticky;
+}
+
+button:hover{
+    color: blue;
+}
+
+button:active{
+    box-shadow:
+    2px 2px 5px #1f02f4
+}
+
+a[href="#attendance"]{
+    color:aquamarine;
+}
+
+nav section{
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+ul > li{
+    background-color: gold;
+}
+
+h2~ol{
+    background-color: deeppink;
+}
+
+h3 + p{
+    background-color: orange;
+}
+
+span.test-style{
+    background-color: salmon;
+}

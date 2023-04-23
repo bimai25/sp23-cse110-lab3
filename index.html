@@ -4,37 +4,54 @@
     <meta charset = "UTF-8">
     <title>CSE 110 Lab 2 Mock Meeting Notes</title>
     <link rel = "icon" type = "image/x-icon" href="/imgs/favicon.ico">
+    <link rel = "stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-        <div>Meeting Navigation</div>
+        <div id="nav-text">Meeting Navigation</div>
         <nav>
-            <section>
+            <section class ="nav-text-display">
                 <a href="#attendance">Attendance</a>
-                <a href="#prevTakeaways">Previous Meeting Takeaways</a> <br>
+                <a href="#prevTakeaways">Previous Meeting Takeaways</a>
                 <a href="#newBusiness">New Business</a>
-                <a href="#comments">Comments/Concerns</a> <br>
+                <a href="#comments">Comments/Concerns</a>
             </section>
         </nav>
     </header>
-    <main>
-        <h1>CSE 110 Team 4 Meeting Notes</h1>
-        <div>Code check in <b>4/13/23</b></div>
-        <span><b>Meeting Goal:</b> Continue establishing our project and solidify the
+    <main class = "section-parent-wrapper">
+        <h1 class = "h1-style">CSE 110 Team 4 Meeting Notes</h1>
+        <div class = "meeting-type-text">Code check in <b>4/13/23</b></div>
+        <span class = "test-style"><b>Meeting Goal:</b> Continue establishing our project and solidify the
             direction we will take our codebase</span>
         <hr>
         <h2 id = "attendance">Attendance</h2>
-            <ul>
-                <li>Brandon Imai - <i>Team Lead</i></li>
-                <li>Nakul Nandhakumar - <i>Team Lead</i></li>
-                <li>Michi Wada - <i>Developer</i></li>
-                <li>Joshua Tan - <i>Developer</i></li>
-                <li>Abijit Jayachandran - <i>Developer</i></li>
-                <li>Ezgi Bayraktaroglu - <i>Developer</i></li>
-                <li>Jaemok Lee - <i>Planner</i></li>
-                <li>Samuel Au - <i>Developer</i></li>
-                <li>Helen Lin - <i>Developer</i></li>
-            </ul>
+            <div class ="attendance-parent-wrapper">
+                <div class = "attendance-child-wrapper">
+                    <ul>
+                        <li id = "name-text">Brandon Imai - <i>Team Lead</i></li>
+                        <li id = "name-text">Nakul Nandhakumar - <i>Team Lead</i></li>
+                        <li id = "name-text">Michi Wada - <i>Developer</i></li>
+                        <li id = "name-text">Joshua Tan - <i>Developer</i></li>
+                    </ul>
+                </div>
+                <div class = "attendance-child-wrapper">
+                    <ul>
+                        <li id = "name-text">Abijit Jayachandran - <i>Developer</i></li>
+                        <li id = "name-text">Ezgi Bayraktaroglu - <i>Developer</i></li>
+                        <li id = "name-text">Jaemok Lee - <i>Planner</i></li>
+                    </ul>
+                </div>
+                <div class = "attendance-child-wrapper">
+                    <ul>
+                        <li id = "name-text">Samuel Au - <i>Developer</i></li>
+                        <li id = "name-text">Helen Lin - <i>Developer</i></li>
+                        <li id = "name-text">Khanh Le - <i>Developer</i></li>
+                    </ul>
+                </div>
+            </div>
         <h2 id = "prevTakeaways">Previous Meeting Takeaways</h2>
             <ul>
                 <li>Introductions to the team</li>
@@ -71,11 +88,11 @@
                 make a concerted effort to help that person.
             </p>
         <h3>Stuff to Boost Team Morale</h3>
-        <img class = "fit-picture"
+        <img class = "image-layout"
             src = "imgs/cutePanda.jpeg"
             alt = "A cute panda hangs from a bamboo branch">
         <p>Here's an image of a <em>cute</em> panda for <em>your</em> endearment!</p>
-        <video controls width = "620">
+        <video class = "video-layout" controls width = "620">
             <source src = "imgs/IMG_9574.mov" type = "video/mp4">
         </video>
         <figure>
